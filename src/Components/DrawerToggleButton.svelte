@@ -1,0 +1,37 @@
+<button class="toggle_button" on:click>
+  <div class="toggle_button_line"></div>
+  <div class="toggle_button_line"></div>
+  <div class="toggle_button_line"></div>
+</button>
+
+<style>
+.toggle_button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 24px;
+  width: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 1em 0 1em 0.75em;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.toggle_button:focus{
+  outline: none;
+}
+
+.toggle_button_line{
+  width: 30px;
+  height: 2px;
+  background: #fff;
+}
+
+@media (min-width: 769px){
+  .toggle_button{
+    display: none;
+  }
+}
+</style>
