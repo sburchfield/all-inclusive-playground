@@ -16,6 +16,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "sapper": "^0.27.12",
     "sirv-cli": "^0.4.4",
     "svelte-icons": "^2.1.0"
   }
